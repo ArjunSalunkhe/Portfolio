@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header">
+        <a href="#" class="logo">AS.dev</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+    </header>
+
+    <section class="home" id="home">
+        
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Arjun Salunkhe</h1>
+            <p>I am a passionate front-end web developer with a strong skill set in design and problem-solving. Proficient in HTML5, CSS, JavaScript, React.js, Redux Toolkit I strive to create visually appealing and interactive user interfaces. With a disciplined approach, I excel in writing clean code and optimizing performance. I am adept at collaborating in team environments. I am enthusiastic about leveraging frameworks like React.js to build dynamic web applications. As a motivated professional, I bring a combination of creativity and technical expertise to deliver exceptional front-end solutions.</p>
+
+            <div class="social-media">
+                <a href="https://github.com/ArjunSalunkhe"><i class="bx bxl-github"></i></a>
+                <!-- <a href=""><i class="bx bxl-twitter"></i></a> -->
+                <a href="https://www.linkedin.com/in/arjun-salunkhe-aa40aa2a7"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://wa.me/918237307667"><i class="bx bxl-whatsapp"></i></a>
+                
+            </div>
+
+            <a href="resume/_Resume.pdf" download class="btn">Download CV</a>
+
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0">
+                    <i class="bx bx-code-alt"></i>
+                    <h3> Front-end Devleoper</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="img/IMG_1083.JPG_prev_ui.png" alt="">
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/IMG_1083.JPG_prev_ui.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi there, welcome to my website I'm Arjun Salunkhe a passionate front-end web developer and enjoy learning new technologies and solving problems with code! </h3>
+            <p>
+                This website is my personal blog where i write about web development topics that interest me and inspire me.
+            </p>
+            <p>
+                Thank you for visiting my website and getting to know me better. 
+                <!-- I hope you enjoyed reading my blog post and found them useful and informative. if you want read more of my post, subscribe to my newsletter where i send weekly updates on web development trends and tips. If you have any feedback or suggesion, please let me know. I'd love to hear from you.. -->
+                A Passionate and dedicated Frontend Developer with a keen eye for detail and a strong foundation in web technologies like HTML, CSS, JavaScript and React with a deep understanding of responsive design and user experience. Committed to continuous learning and staying updated with the latest industry trends.
+            </p>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/1.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Mega Blog App </h4>
+                    <p>In this ‘Blog’ app website has the best UI design,i include features for formatting text, adding images, & embedding media. Users can publish their blog posts directly from the app, making it easy to share their content.</p>
+                    <a href="https://new-blogwebsite.netlify.app/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/2.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Google Search App</h4>
+                    <p>A google search engine is an application web service designed to help users find information stored on the internet. Users can enter a query into the search bar, including web pages, images etc.</p>
+                    <a href="https://new-google-search-app.netlify.app/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/3.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Sidcup-Family-Golf</h4>
+                    <p>In this clone website basically this sidcup family golf website has the well UI design and I did the animations also in this with the help of GSAP. </p>
+                    <a href="https://arjunsalunkhe.github.io/Sidcup-Family-Golf_Website/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="img/4.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Cynthia Ugwu</h4>
+                    <p>This is the best website and the user interface experience is the best. Well in this I have used animations also, this is simple but classic website.</p>
+                    <a href="https://arjunsalunkhe.github.io/CynthiaUgwu_Website/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form  action="https://formspree.io/f/mnqenkoy" method="POST">
+            <div class="input-box">
+                <input type="text" name="username" class="in" id="username" required autocomplete="off" placeholder="Full Name">
+                <input type="email" name="email" class="in" id="email" required autocomplete="off" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" name="number" class="in" id="number" required autocomplete="off" placeholder="Mobile Number">
+                <input type="text" name="subject" class="in" id="subject" required autocomplete="off" placeholder="Email Subject">
+            </div>
+            <textarea name="Massage" id="text" class="in" cols="30" rows="10" name="message" autocomplete="off" required placeholder="Enter Your Message.."></textarea>
+            <!-- <input type="submit" value="send messages" class="btn"> -->
+            <button type="submit" class="btn">send message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>
+                copyright &copy; 2023 | All Rights Reserved
+            </p>
+        </div>
+        <div class="footer-icontop">
+            <a href="">
+                <i class="bx bx-up-arrow-alt"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Boxicon Cdn paste it here... -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js" integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
